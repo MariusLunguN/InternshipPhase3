@@ -12,68 +12,11 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <!--Header-->
-    <header class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
-                <a id="logo" class="pull-left" href="index.html"></a>
-                <div class="nav-collapse collapse pull-right">
-                    <ul class="nav">
-                        <li class="active">@Html.ActionLink("Home", "Index", "Home")</li>
-                        <li>@Html.ActionLink("About Us", "Index", "AboutUs")</li>
-                        <li>@Html.ActionLink("Services", "Index", "Services")</li>
-                        <li>@Html.ActionLink("Portfolio", "Index", "Portfolio")</li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Additional<i class="icon-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li>@Html.ActionLink("404", "404Page", "Additional")</li>
-                                <li>@Html.ActionLink("Privacy policy", "PrivacyPolicy", "Additional")</li>
-                            </ul>
-                        </li>
-                        <li>@Html.ActionLink("Contact", "Index", "ContactUs")</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- /header -->
-
-    <!-- Body -->
+    @Html.Partial("_Header")
     
     @RenderBody()
     
-    <!-- /Body -->
-
-    <!--Footer-->
-    <footer id="footer">
-        <div class="container">
-            <div class="row-fluid">
-                <div class="span5 cp">
-                    &copy; 2016 <a target="_blank" href="http://www.domain.com/">Your Company</a>. All Rights Reserved.
-                </div>
-                <div class="span6">
-                    <ul class="social pull-right">
-                        <li><a href="#"><i class="icon-facebook"></i></a></li>
-                        <li><a href="#"><i class="icon-twitter"></i></a></li>
-                        <li><a href="#"><i class="icon-pinterest"></i></a></li>
-                        <li><a href="#"><i class="icon-linkedin"></i></a></li>
-                        <li><a href="#"><i class="icon-google-plus"></i></a></li>
-                        <li><a href="#"><i class="icon-youtube"></i></a></li>
-                        <li><a href="#"><i class="icon-instagram"></i></a></li>
-                    </ul>
-                </div>
-                <div class="span1">
-                    <a id="gototop" class="gototop pull-right" href="#"><i class="icon-angle-up"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--/Footer-->
+    @Html.Partial("_Footer")
 
 
     @Scripts.Render("~/bundles/jquery")

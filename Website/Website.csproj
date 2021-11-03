@@ -198,6 +198,8 @@
     <Content Include="Views\Home\_HomeRecentWorks.cshtml" />
     <Content Include="Views\Home\_HomeClients.cshtml" />
     <Content Include="Views\Home\_HomeBottom.cshtml" />
+    <Content Include="Views\Shared\_Header.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
