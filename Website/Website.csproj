@@ -127,27 +127,47 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap-responsive.min.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\main.css" />
+    <Content Include="Content\sl-slide.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="images\favicon.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\portfolio\full\item1.jpg" />
+    <Content Include="images\portfolio\full\item2.jpg" />
+    <Content Include="images\portfolio\full\item3.jpg" />
+    <Content Include="images\portfolio\full\item4.jpg" />
+    <Content Include="images\portfolio\full\item5.jpg" />
+    <Content Include="images\portfolio\full\item6.jpg" />
+    <Content Include="images\portfolio\thumb\item1.jpg" />
+    <Content Include="images\portfolio\thumb\item2.jpg" />
+    <Content Include="images\portfolio\thumb\item3.jpg" />
+    <Content Include="images\portfolio\thumb\item4.jpg" />
+    <Content Include="images\portfolio\thumb\item5.jpg" />
+    <Content Include="images\portfolio\thumb\item6.jpg" />
+    <Content Include="images\sample\clients\client1.png" />
+    <Content Include="images\sample\clients\client2.png" />
+    <Content Include="images\sample\clients\client3.png" />
+    <Content Include="images\sample\clients\client4.png" />
+    <Content Include="images\sample\slider\img1.png" />
+    <Content Include="images\sample\slider\img2.png" />
+    <Content Include="images\sample\slider\img3.png" />
+    <Content Include="images\sample\team1.jpg" />
+    <Content Include="images\sample\team2.jpg" />
+    <Content Include="images\sample\team3.jpg" />
+    <Content Include="images\sample\team4.jpg" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
-    <Content Include="Scripts\jquery-3.4.1.js" />
-    <Content Include="Scripts\jquery-3.4.1.min.js" />
-    <Content Include="Scripts\jquery-3.4.1.slim.js" />
-    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\jquery.ba-cond.min.js" />
+    <Content Include="Scripts\jquery.slitslider.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\twitter-bootstrap-hover-dropdown.min.js" />
+    <Content Include="Scripts\vendor\bootstrap.min.js" />
+    <Content Include="Scripts\vendor\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\vendor\modernizr-2.6.2-respond-1.1.0.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -166,17 +186,14 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="images\.DS_Store" />
+    <Content Include="images\sample\.DS_Store" />
+    <Content Include="images\sample\clients\.DS_Store" />
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
-    <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
