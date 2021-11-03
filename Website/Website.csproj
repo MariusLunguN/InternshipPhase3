@@ -133,7 +133,7 @@
     <Content Include="Content\main.css" />
     <Content Include="Content\sl-slide.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="font\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="images\favicon.png" />
     <Content Include="images\logo.png" />
@@ -165,9 +165,8 @@
     <Content Include="Scripts\jquery.slitslider.js" />
     <Content Include="Scripts\main.js" />
     <Content Include="Scripts\twitter-bootstrap-hover-dropdown.min.js" />
-    <Content Include="Scripts\vendor\bootstrap.min.js" />
-    <Content Include="Scripts\vendor\jquery-1.9.1.min.js" />
-    <Content Include="Scripts\vendor\modernizr-2.6.2-respond-1.1.0.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2-respond-1.1.0.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -186,11 +185,10 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="fonts\fontawesome-webfont.ttf" />
-    <Content Include="fonts\fontawesome-webfont.woff" />
-    <Content Include="fonts\FontAwesome.otf" />
-    <Content Include="images\.DS_Store" />
+    <Content Include="font\fontawesome-webfont.eot" />
+    <Content Include="font\fontawesome-webfont.ttf" />
+    <Content Include="font\fontawesome-webfont.woff" />
+    <Content Include="font\FontAwesome.otf" />
     <Content Include="images\sample\.DS_Store" />
     <Content Include="images\sample\clients\.DS_Store" />
     <None Include="packages.config" />
