@@ -192,6 +192,12 @@
     <Content Include="images\sample\.DS_Store" />
     <Content Include="images\sample\clients\.DS_Store" />
     <None Include="packages.config" />
+    <Content Include="Views\Home\_HomeSlider.cshtml" />
+    <Content Include="Views\Home\_HomeMainInfo.cshtml" />
+    <Content Include="Views\Home\_HomeServices.cshtml" />
+    <Content Include="Views\Home\_HomeRecentWorks.cshtml" />
+    <Content Include="Views\Home\_HomeClients.cshtml" />
+    <Content Include="Views\Home\_HomeBottom.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
