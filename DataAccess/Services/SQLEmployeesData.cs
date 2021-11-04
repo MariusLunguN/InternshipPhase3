@@ -34,9 +34,11 @@ namespace DataAccess.Services
 
         public IEnumerable<Employee> GetAll()
         {
-            return from e in _db.Employees
-                   orderby e.Name
-                   select e;
+            //return from e in _db.Employees
+            //       orderby e.Name
+            //       select e;
+
+            return _db.Employees.Select(e => e).OrderBy(n => n.Name);
         }
 
         public void Update(Employee employee)
