@@ -34,15 +34,9 @@ namespace DataAccess.Services
 
         public IEnumerable<Employee> GetAll()
         {
-            return _db.Employees.Select(
-                        empl => new Employee()
-                        {
-                            ID = empl.ID,
-                            Intro = empl.Intro,
-                            Name = empl.Name,
-                            Picture = empl.Picture,
-                            SocialMedia = empl.SocialMedia
-                        }).ToList();
+            return from e in _db.Employees
+                   orderby e.Name
+                   select e;
         }
 
         public void Update(Employee employee)

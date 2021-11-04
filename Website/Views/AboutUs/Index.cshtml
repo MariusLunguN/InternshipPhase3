@@ -1,4 +1,12 @@
-﻿<section class="title">
+﻿@model Website.Models.AboutUsViewModel
+
+@foreach (var empl in Model.EmployeeList)
+{
+    <p>@empl.Name</p>
+}
+
+
+<section class="title">
     <div class="container">
         <div class="row-fluid">
             <div class="span6">
