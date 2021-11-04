@@ -12,12 +12,13 @@ namespace DataAccess.Models
         public string Name { get; set; }
 
         [Required]
-        public object Picture { get; set; }
+        public string Picture { get; set; }
 
         [Required]
+        [MaxLength(666)]
         public string Intro { get; set; }
 
         [Required]
-        public IEnumerable<SocialMedia> SocialMedia { get; set; }
+        public int SocialMediaID { get; set; }
     }
 }

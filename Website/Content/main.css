@@ -922,9 +922,18 @@ ul.faq li>div h3 {
 #HR a:hover {
     color: #FFF
 }
+
+.table th, .table td {
+    width:20%;
+}
+
+.table img {
+    width: 10em;
+}
 /* Media Queries */
 @media screen and (max-width: 760px) {
     #bottom, #footer{
         text-align: center;
     }
 }
+

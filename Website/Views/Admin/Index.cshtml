@@ -1,0 +1,60 @@
+﻿@model IEnumerable<DataAccess.Models.Employee>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="container main">
+
+    <h2>Index</h2>
+
+    <p>
+        @Html.ActionLink("Create New Employee", "Create", "Admin")
+    </p>
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Picture)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Intro)
+            </th>
+            <th>
+                <p>Social media</p>
+            </th>
+            <th>
+                <p>Operations</p>
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            string imagePath = string.Concat("~/", item.Picture);
+            <tr>
+                <td>
+                    <img src=@Url.Content(imagePath) />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Intro)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SocialMediaID)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                </td>
+            </tr>
+        }
+
+    </table>
+</section>
