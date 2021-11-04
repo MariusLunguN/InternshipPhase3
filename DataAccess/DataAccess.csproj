@@ -55,10 +55,11 @@
     <Compile Include="Models\EmployeeComponent.cs" />
     <Compile Include="Models\SocialMedia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\IEmployeeData.cs" />
+    <Compile Include="Services\InternshipPhase3DbContext.cs" />
+    <Compile Include="Services\SQLEmployeesData.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
